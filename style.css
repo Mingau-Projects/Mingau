@@ -1,0 +1,93 @@
+html {
+    background-color: rgb(78, 78, 78);
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom: 1px solid white;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid white;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial;
+  }
+  
+  li a:hover {
+    background-color: #2b2b2b;
+  }
+
+  .active {
+    background-color: #6387bd;
+  }
+
+  
+  li:last-child {
+    border-right: none;
+  }
+
+ .color {
+    padding: 80px;
+    background-color: #6387bd;
+    background-image: linear-gradient(#6387bd, rgb(78, 78, 78));
+  }
+
+h1, h2, h3, small, h6 {
+  font-family: arial;
+  text-align: center;
+  color: white;
+}
+
+.contacts:hover {
+ opacity: 0.7;
+}
+
+a {
+ padding: 10px;
+}
+
+.mine {
+  background-color: rgb(233, 233, 104);
+  border: 3px #2b2b2b solid;
+  border-radius: 8px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+.robl {
+  background-color: rgb(170, 170, 149);
+  border: 3px #2b2b2b solid;
+  border-radius: 8px;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 20px;
+}
+
+.stg {
+  background-color: rgb(209, 170, 64);
+  border: 3px #2b2b2b solid;
+  border-radius: 8px;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 20px;
+}
