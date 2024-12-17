@@ -91,3 +91,7 @@ a {
   margin-right: 600px;
   margin-top: 20px;
 }
+
+a {
+  text-decoration: none;
+}
