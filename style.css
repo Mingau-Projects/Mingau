@@ -59,7 +59,7 @@ h1, h2, h3, small, h6 {
 }
 
 .contacts:hover {
- scale: 80;
+ opacity: 0.8;
 }
 
 a {
@@ -96,4 +96,5 @@ a {
   text-decoration: none;
 
 }
+
 
